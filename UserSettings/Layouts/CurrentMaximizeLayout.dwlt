@@ -86,7 +86,7 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 0
+    m_EnableMouseInput: 1
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1
@@ -224,9 +224,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 26680000
-      m_LastClickedID: 26662
-      m_ExpandedIDs: e8d2ffff02d7ffff74d7ffffc0d7ffff28dbffff9ce9ffff38fbffff125a00004a5a0000545a00005c5a0000825a0000a45a00008262000094620000226500005a650000646500006c65000092650000b46500006467000076670000266800005e680000686800007068000096680000b8680000d6680000
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: 2e9affffe8d2ffff02d7ffff74d7ffffc0d7ffff28dbffff9ce9ffff38fbffff125a00004a5a0000545a00005c5a0000825a0000a45a00008262000094620000226500005a650000646500006c65000092650000b465000064670000766700004c6800005e680000706800007a68000096680000a0680000b8680000d6680000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -535,9 +535,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 12.418979, y: 30.911371, z: 81.11841}
+    m_Target: {x: 3.971153, y: -41.850243, z: 75.3345}
     speed: 2
-    m_Value: {x: 12.418979, y: 30.911371, z: 81.11841}
+    m_Value: {x: 3.971153, y: -41.850243, z: 75.3345}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -588,9 +588,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 26.592928
+    m_Target: 21.240902
     speed: 2
-    m_Value: 26.592928
+    m_Value: 21.240902
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -683,21 +683,21 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets
+    - Assets/Image
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets
+  - Assets/Image
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\kachi\UnityProject\SourceTree\VCall
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 63}
-    m_SelectedIDs: 385b0000
-    m_LastClickedID: 23352
+    m_SelectedIDs: 405b0000
+    m_LastClickedID: 23360
     m_ExpandedIDs: 00000000385b000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -751,9 +751,9 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 26680000
-    m_LastClickedInstanceID: 26662
-    m_HadKeyboardFocusLastEvent: 0
+    m_SelectedInstanceIDs: 
+    m_LastClickedInstanceID: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000905e000000000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -871,7 +871,7 @@ MonoBehaviour:
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_LastInspectedObjectInstanceID: -1
-  m_LastVerticalScrollValue: 0
+  m_LastVerticalScrollValue: 193.33337
   m_GlobalObjectId: 
   m_InspectorMode: 0
   m_LockTracker:

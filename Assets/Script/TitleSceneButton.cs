@@ -6,11 +6,10 @@ public class TitleSceneButton : MonoBehaviour
 {
     // Start is called before the first frame update
     [SerializeField] GameObject[] Screen;
-    [SerializeField] GameObject NowScreen;
-    public int State = -1;
+    int State = 1;
     void Start()
     {
-        CamvasUpdate();
+        CamvasUpdate(1);
     }
 
     // Update is called once per frame
@@ -19,10 +18,10 @@ public class TitleSceneButton : MonoBehaviour
 
     }
 
-    public void CamvasUpdate()
+    public void CamvasUpdate(int state_update)
     {
-        State++;
-        Destroy(NowScreen);
-        NowScreen = Instantiate(Screen[State]);
+        Screen[State].SetActive(false);
+        State = state_update;
+        Screen[State].SetActive(true);
     }
 }
